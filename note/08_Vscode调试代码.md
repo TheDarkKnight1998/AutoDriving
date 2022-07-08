@@ -8,7 +8,7 @@
 
 首先要在vscode里安装docker，安装成功后，如下图所示
 
-![image-20220321215513783](D:\自动驾驶\AutoDriving\note\picture\image-20220321215513783.png)
+![image-20220321215513783](AutoDriving\note\picture\image-20220321215513783.png)
 
 在使用`vscode`进入`dokcer`容器之前，需要按照官方教程安装好`apollo`，需要启动`apollo`环境
 
@@ -21,19 +21,19 @@ bash docker/scripts/dev_start.sh
 
 1.`vscode`需要借助`Remote-Containers`插件进入`apollo`的`docker`容器，安装`Remote-Containers`插件
 
-![image-20220321215851211](D:\自动驾驶\AutoDriving\note\picture\image-20220321215851211.png)
+![image-20220321215851211](AutoDriving\note\picture\image-20220321215851211.png)
 
 2.在`vscode`左侧侧边栏会显示`Remoter Explorer`图标，点击图标后会显示本机安装的容器，选择`apolloauto/apollo:dev`(即选择`apollo`的`docker`运行环境容器)，右键选择`Attach to Container`即可。
 
 注意：图中显示两个apollo容器，一个是普通用户，一个是root用户，选择普通用户的登录，root用户一直提示权限问题
 
-![image-20220321220014228](D:\自动驾驶\AutoDriving\note\picture\image-20220321220014228.png)
+![image-20220321220014228](AutoDriving\note\picture\image-20220321220014228.png)
 
 3.在新弹出来的`vscode`界面，其左下角会显示当前的`docker`容器信息，点击左上角file选择文件夹`/apollo/`，点击ok打开。
 
 如下图显示，表示进入docker成功了
 
-![image-20220321220520265](D:\自动驾驶\AutoDriving\note\picture\image-20220321220520265.png)
+![image-20220321220520265](AutoDriving\note\picture\image-20220321220520265.png)
 
 ## 配置容器
 
